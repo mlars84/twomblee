@@ -1,5 +1,5 @@
 var annoysCounter = 0;
-var annoyanceThreshold = 23;
+var annoyanceThreshold = 2;
 
 $( document ).ready( function(){
   $( '#clickyButton' ).on( 'click', function(){
@@ -12,4 +12,9 @@ $( document ).ready( function(){
       $( '#annoysBucket' ).append( "<img src='https://img.memesuper.com/94048fb72ea8c8021649e336e086c4cd_full-resolution-meme-cry-face_720-480.jpeg'>" );
     }
   });
+
+$( '#bbqButton' ).on('click', function(){
+  
 });
+
+}); // end doc ready
